@@ -233,7 +233,7 @@ body{display:flex;flex-direction:column;}
 /* ─────────────────────────────────────────────
    CONFIG — แก้ค่านี้ให้ตรงกับ Web App URL จริง
    ──────────────────────────────────────────── */
-const WEB_APP_URL = 'https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec';
+const WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbwS0CmgAdXylEqPQPBhe1JqNcX9j4_mzUCWrL8jnArY7p1WuBRud82a2NDG8SHPsX1C/exec';
 
 /* ─────────── State ─────────── */
 let state = {
@@ -267,7 +267,7 @@ function initDateDefault() {
 async function initLiff() {
   showCatSkeleton();
   try {
-    await liff.init({ liffId: 'YOUR_LIFF_ID' });
+    await liff.init({ liffId: '2010402370-EfacITHN' });
     if (!liff.isLoggedIn()) { liff.login(); return; }
     const profile = await liff.getProfile();
     state.userProfile = profile;
