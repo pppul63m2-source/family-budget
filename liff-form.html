@@ -6,7 +6,7 @@
 <title>บันทึกรายการ</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet"/>
-<script charset="utf-8" src="https://static.line-sgi.com/pb/js/v3/10/main.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@line/liff@2.22.3/dist/liff.min.js"></script>
 
 <style>
 /* ───────── Reset & Base ───────── */
@@ -233,7 +233,7 @@ body{display:flex;flex-direction:column;}
 /* ─────────────────────────────────────────────
    CONFIG — แก้ค่านี้ให้ตรงกับ Web App URL จริง
    ──────────────────────────────────────────── */
-const WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbyvlb0qeErz08wonawv08lWVIG5UyLB9WEPqfrL-Fs7XY7yOgQcJz3ypBpCo6MBpX9jqA/exec';
+const WEB_APP_URL = 'https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec';
 
 /* ─────────── State ─────────── */
 let state = {
